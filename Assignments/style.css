@@ -1,0 +1,51 @@
+body {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.select {
+    display: flex;
+    background-color: #bebdbdbf;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 30px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.select span {
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#id_fontFamilySelect,
+#id_fontSizeSelect,
+#id_colorSelect,
+#id_fontweightSelect {
+    width: 200px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+}
+
+#display {
+    background-color: #bebdbdbf;
+    margin: 20px auto;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 30px;
+    text-align: center;
+}
